@@ -12,6 +12,8 @@
     <div class="px-10 ">
 
     
+
+    
     <nav class="flex justify-between items-center py-4 border-b border-white/10">
         <div>
             <a href="/">
@@ -35,7 +37,9 @@
         <div>post a job</div>
     </nav>
     </div>
+    
     <main class="mt-10 max-w-[986px] mx-auto">
+        
     {{ $slot }}
     </main>
     
